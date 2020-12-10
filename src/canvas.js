@@ -6,7 +6,7 @@ const Canvas = props => {
   
   const draw = (ctx) => {
     const coloursWeft = ['rgb(0,255,255)','rgb(255,0,255)']
-    const coloursWarp = ['rgb(255,0,255)','rgb(0,255,255)']
+    const coloursWarp = ['rgb(255,0,255,0.5)','rgb(0,255,255,0.5)']
     var i =  0
     var x = 0
 
